@@ -7,9 +7,14 @@ request(
 		if (!error && response.statusCode === 200) {
 			const $ = cheerio.load(html);
 
-			const siteHeading = $(".post-head-title");
-			const output = siteHeading.children("h1").next().text();
-			console.log(output);
+			// const siteHeading = $(".post-head-title");
+			// const output = siteHeading.children("h1").next().text();
+			// console.log(output);
+
+			$(".menu-item").each((i, el) => {
+				const item = $(el).text();
+				console.log(item);
+			});
 		}
 	}
 );
