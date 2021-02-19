@@ -1,0 +1,23 @@
+{
+  "name": "js-web-scraper",
+  "version": "1.0.0",
+  "description": "simple node web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sul-eman/js-web-scraper.git"
+  },
+  "author": "Suleman Saleem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sul-eman/js-web-scraper/issues"
+  },
+  "homepage": "https://github.com/Sul-eman/js-web-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "request": "^2.88.2"
+  }
+}
